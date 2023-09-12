@@ -4,9 +4,9 @@ module priority_encoder_8_3_tb ();
   reg EN;
   wire [2:0] A;
   priority_encoder_8_3 uut (
-      .y (Y),
-      .en(EN),
-      .a (A)
+      .Y (Y),
+      .EN(EN),
+      .A (A)
   );
   initial begin
     EN = 1;
